@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+*{
+    font-family: 'Anybody', cursive;
+}
+
+.navbar {
+    background-color: #a1a29e;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar-content{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-weight: bold;
+    display: inline;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.intro-text{
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    padding-right: 30px;
+}
+.con-text{
+    font-weight: normal;
+    float: right;
+}
