@@ -3,39 +3,95 @@
 *{
     font-family: 'Anybody', cursive;
 }
-
+body
+{
+  background-color: rgb(225, 223, 219);
+}
 .navbar {
-    background-color: #a1a29e;
-    padding: 0;
-    margin: 0;
-    
+    background-color: #a39da1;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .navbar-content{
     list-style: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 35px;
     font-style: italic;
     font-weight: bold;
+    font-size: 25px;
     display: inline;
+    color: rgb(255, 255, 255);
+}
+
+.home-my-image{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 30%;
+    overflow: hidden;
+    border-width : 10px; 
+    border-style : solid; 
+    border-color : #c3c7ca;
+}
+.home-my-image-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-tab{
+    padding: 50px;
+}
+.about-img{
+    float: left;
+    width: 50%;
 }
 
 h1, h3{
     text-align: center;
+    font-style: italic;
+    font-weight: normal;
 }
 
 .float-wrap{
     overflow: hidden;
+    float: left;
+    width: 50%;
 }
 
 .intro-text{
     font-style: italic;
     font-weight: bold;
+    text-align: center;
     float: left;
-    padding-right: 30px;
+    width: 40%;
 }
 .con-text{
     font-weight: normal;
+    text-align: center;
     float: right;
+    width: 60%;
+}
+.portfolio-title-text{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.welcome-tab{
+    padding-top: 100px;
+}
+.wel-wrap{
+    margin: 10px auto;
+    position: relative;
+}
+.wel-text{
+  padding: 10px 20px;
+  background-color: azure;
+  opacity: 1.0;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 10%;
 }
